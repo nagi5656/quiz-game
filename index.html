@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <title>答題遊戲</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>營養 Bingo 遊戲</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
 
-    <h1>
-        歡（ㄏㄨㄢ）迎（ㄧㄥˊ）來（ㄌㄞˊ）到（ㄉㄠˋ）
-        答（ㄉㄚˊ）題（ㄊㄧˊ）遊（ㄧㄡˊ）戲（ㄒㄧˋ）
-    </h1>
+<h1>營養 Bingo 遊戲</h1>
 
-    <img src="會動的皮卡丘.gif" class="gif">
+<div class="status">
+已完成：<span id="completed">0</span>/14
+</div>
 
-    <div class="info-box">
-        <p>遊（ㄧㄡˊ）戲（ㄒㄧˋ）說（ㄕㄨㄛ）明（ㄇㄧㄥˊ）</p>
-        <p>1. 點（ㄉㄧㄢˇ）擊（ㄐㄧˊ）開（ㄎㄞ）始（ㄕˇ）遊（ㄧㄡˊ）戲（ㄒㄧˋ）</p>
-        <p>2. 回（ㄏㄨㄟˊ）答（ㄉㄚˊ）題（ㄊㄧˊ）目（ㄇㄨˋ）</p>
-        <p>3. 查（ㄔㄚˊ）看（ㄎㄢˋ）正（ㄓㄥˋ）確（ㄑㄩㄝˋ）答（ㄉㄚˊ）案（ㄢˋ）與（ㄩˇ）詳（ㄒㄧㄤˊ）解（ㄐㄧㄝˇ）</p>
-    </div>
-
-    <button onclick="startGame()">
-        開（ㄎㄞ）始（ㄕˇ）遊（ㄧㄡˊ）戲（ㄒㄧˋ）
-    </button>
+<div id="bingoBoard" class="bingo-board"></div>
 
 </div>
 
 <script src="script.js"></script>
+<script>
+loadBingoBoard();
+</script>
+
 </body>
 </html>
