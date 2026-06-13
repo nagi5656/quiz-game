@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #d9c2a7;
+    font-family: "Microsoft JhengHei";
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #4a3426;
+    font-size: 40px;
+}
+
+.gif {
+    width: 250px;
+    margin: 20px;
+}
+
+.info-box {
+    background: #b08b6d;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 24px;
+    margin: 15px;
+    border: none;
+    border-radius: 15px;
+    background: #a06a4b;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #8b5e3c;
+}
+
+.option-btn {
+    display: block;
+    width: 50%;
+    margin: 15px auto;
+}
